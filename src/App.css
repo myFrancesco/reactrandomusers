@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  position: relative;
+}
+.microSmallText {
+  font-size: 12px;
+}
+.smallText {
+  font-size: 14px;
+}
+.smallMediumText {
+  font-size: 16px;
+}
+.mediumText {
+  font-size: 20px;
+}
+
+.smallWeight {
+  font-weight: 400;
+}
+
+.mediumWeight {
+  font-weight: 500;
+}
+
+.flex-row {
+  display: flex;
+}
+.space-evenly {
+  justify-content: space-evenly;
+}
+.space-around {
+  justify-content: space-around;
+}
+.space-between {
+  justify-content: space-between;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.pointer {
+  cursor: pointer;
+}
+.disabled {
+  pointer-events: none;
+  cursor: not-allowed;
+  opacity: 0.65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

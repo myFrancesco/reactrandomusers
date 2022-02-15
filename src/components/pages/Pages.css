@@ -1,0 +1,35 @@
+@import "~antd/dist/antd.css";
+
+.usersPage {
+  z-index: -2;
+}
+
+.pageLoading {
+  min-height: 20rem;
+  padding-top: 2rem;
+  font-size: 50px;
+  color: #1890ffb0;
+  text-align: center;
+  animation: loadingBouncing 2s ease-in-out infinite;
+}
+@keyframes loadingBouncing {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 5%);
+  }
+}
+
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+/*                       900 window                     */
+/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+  .pageLoading {
+    font-size: 30px;
+  }
+}
